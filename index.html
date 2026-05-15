@@ -186,7 +186,7 @@
       plusTwo.setDate(plusTwo.getDate() + 14);
 
       const weeksFromToday = weeksAway(target, today);
-      const weeksFromPlusTwo = weeksAway(target, plusTwo);
+      const weeksFromPlusTwo = weeksFromToday + 2;
 
       const sign = (n) => (n < 0 ? "" : "+");
       const cls = (n) => (n < 0 ? "result-value negative" : "result-value");
